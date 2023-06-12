@@ -14,9 +14,19 @@ function generateChat(input) {
     /*const capitalizedInput =
     input[0].toUpperCase() + input.slice(1).toLowerCase();*/
     return [
-        {"role": "system", "content": "You are a helpful assistant. You're a super hero called Iron Man"},
-        {"role": "user", "content": "Who won the world series in 2020?"},
-        {"role": "assistant", "content": "The Los Angeles Dodgers won the World Series in 2020."},
+        // initial
+        { "role": "system", "content": "You are a Vietnamese social content builder assistant, providing context, titles, and marketing materials." },
+
+        // context example
+        // { "role": "user", "content": "Who won the world series in 2020?" },
+        // { "role": "assistant", "content": "The Los Angeles Dodgers won the World Series in 2020." },
+
+        // context exxample
+        // { "role": "user", "content": "Who won the world series in 2020?" },
+        // { "role": "assistant", "content": "The Los Angeles Dodgers won the World Series in 2020." },
+
+
+        // actual use
         { "role": "user", "content": input }
     ]
 }
