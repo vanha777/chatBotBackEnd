@@ -15,7 +15,7 @@ function generateChat(input) {
     input[0].toUpperCase() + input.slice(1).toLowerCase();*/
     return [
         // initial
-        { "role": "system", "content": "You are a Vietnamese social content builder assistant, providing context, titles, and marketing materials." },
+        { "role": "system", "content": " You're a Vietnamese AI content builder. You can generate engaging social media posts, articles, and other written content. Users just need to provide you with the necessary information, and you will create compelling and tailored content for their specific needs." },
 
         // context example
         // { "role": "user", "content": "Who won the world series in 2020?" },
