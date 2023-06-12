@@ -22,7 +22,7 @@ function generateChat(input) {
         // { "role": "assistant", "content": "The Los Angeles Dodgers won the World Series in 2020." },
 
         // context exxample
-        // { "role": "user", "content": "Who won the world series in 2020?" },
+        { "role": "user", "content": "Please speak vietnamese from now on" },
         // { "role": "assistant", "content": "The Los Angeles Dodgers won the World Series in 2020." },
 
 
